@@ -85,9 +85,9 @@ def cta_layer():
     d.text((130, y), "7 dias de garantia (Hotmart)", font=f2, fill=BG)
     y += 120
     d.rounded_rectangle((130, y, W - 130, y + 120), radius=60, fill=ORANGE)
-    f4 = font("InterDisplay-ExtraBold.otf", 58)
-    t = "LINK NA BIO"
-    d.text(((W - f4.getlength(t)) / 2, y + 26), t, font=f4, fill=WHITE)
+    f4 = font("InterDisplay-ExtraBold.otf", 50)
+    t = "folegofinancas.github.io"
+    d.text(((W - f4.getlength(t)) / 2, y + 30), t, font=f4, fill=WHITE)
     return layer
 
 
